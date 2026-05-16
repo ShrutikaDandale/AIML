@@ -1,3 +1,4 @@
+# nested statements
 username = input("enter username: ")
 password = input("enter password: ")
 

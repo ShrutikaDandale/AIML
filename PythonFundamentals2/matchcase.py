@@ -1,3 +1,4 @@
+# matchcase problem
 color = input("enter colour: ")
 
 match color:
