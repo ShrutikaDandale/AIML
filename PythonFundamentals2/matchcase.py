@@ -9,3 +9,5 @@ match color:
         print("stop")
     case _ :
         print("wrong colour") #default case    
+
+        # this case is not offently used
