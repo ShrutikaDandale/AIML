@@ -8,7 +8,8 @@ while (i <= 10):
         continue
     print(i)
   
-print("loop end,nwe are outside loop")    
+
+print("loop end,now we are outside the loop")
 
 
 
