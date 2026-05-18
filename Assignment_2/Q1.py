@@ -3,3 +3,4 @@
 # •Ifsalaryis30,000–70,000→15%
 # •Ifsalary>70,000→25%
 
+(input("enter your salary: "))
