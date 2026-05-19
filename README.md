@@ -31,3 +31,9 @@ Learning **AI & ML** step by step while building and experimenting along the jou
 ## 🎯 Goal
 
 Growing from a beginner to a skilled **AI/ML Developer** through consistent learning & hands-on projects.
+
+---
+
+##  Author
+
+**Shrutika Dandale**
