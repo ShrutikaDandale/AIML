@@ -1,4 +1,4 @@
-# AI-ML-Learning ⚡
+# AI-ML ⚡
 
 Learning **AI & ML** step by step while building and experimenting along the journey.
 
@@ -7,6 +7,9 @@ Learning **AI & ML** step by step while building and experimenting along the jou
 ## ✨ Exploring
 
 - Python Fundamentals
+- MySQL
+- Flask
+- kubernetes
 - NumPy & Pandas
 - Machine Learning
 - Deep Learning
@@ -20,7 +23,7 @@ Learning **AI & ML** step by step while building and experimenting along the jou
 - Practice Code
 - Notes & Learnings
 - Mini Projects
-- Experiments
+- Major Projects
 - Progress Tracking
 
 ---
