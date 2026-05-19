@@ -1,11 +1,21 @@
-🚀 Tracking my AI/ML journey step by step  
+#AI-ML-Learning ⚡
 
-📘 Learning Python, NumPy & Pandas  
+Learning AI & ML step by step while building and experimenting along the journey.
 
-🤖 Exploring Machine Learning, Deep Learning & Neural Networks  
-
-📊 Diving into Data Science & model building  
-
-💡 Daily practice, notes, code snippets & mini projects  
-
-🔥 Building consistency and growing every day  
+##✨ Exploring
+-Python Fundamentals
+-NumPy & Pandas
+-Machine Learning
+-Deep Learning
+-Neural Networks
+-Data Science Concepts
+---
+##📌 In This Repository
+*Practice Code
+*Notes & Learnings
+*Mini Projects
+*Experiments
+*Progress Tracking
+##🎯 Goal
+---
+Growing from a beginner to a skilled AI/ML Developer through consistent learning & hands-on projects.
