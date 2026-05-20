@@ -23,5 +23,5 @@ for name,course in info:
 
         dict[name].add(course) #aagr dict me name and course already exist karata hai to simply name and course print karenge aur aage badhenge
 
-print(dict) #to print whole dict
+print(dict) #to print whole dict 
 
