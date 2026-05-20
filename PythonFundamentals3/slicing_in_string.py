@@ -13,4 +13,10 @@ print(word2[2:9])
 # we can also print our words like this 
 word3 = "Shanku"
 print(word3[-4:-2])
-# yahape index end se start kiya hai and -1 -2 values assign ki gayi hai 
+# yahape index end se start kiya hai and -1 -2 values
+#  assign ki gayi hai 
+
+# default - agar starting and ending me kuch value assign bhi nahi ki to defultly first index and last index aa jate hai
+print(word[:])
+print(word2[:9])
+print(word2[2:])
