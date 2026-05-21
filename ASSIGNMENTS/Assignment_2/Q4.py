@@ -1,0 +1,7 @@
+# Write a function to return the count the number of digits in a number, n
+
+count = input("enter digit")
+
+def print_digits(n):
+ print(len(count))
+
