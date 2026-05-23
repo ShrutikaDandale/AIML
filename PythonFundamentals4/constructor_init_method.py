@@ -14,5 +14,4 @@ print(stu1.cgpa)
 print(stu2.name, stu2.cgpa)
 print(stu3.name)
 
-print(stu1.get_cgpa())  
-
+print(stu1.get_cgpa())
