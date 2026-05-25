@@ -12,4 +12,4 @@ def get_info(self): #function
 l1 = Laptop("16gb", "512gb")
 l2 = Laptop("8gb", "256gb")
 
-l1.get_info() #call the function
+l1.get_info() #call function
