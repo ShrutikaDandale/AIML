@@ -24,3 +24,7 @@ print(stu2.name, stu2.cgpa)
 print(stu3.name)
 
 print(stu1.get_cgpa())
+
+
+
+# method is simply created to ask thee object for the permission to access the values instead of directly fetching them 
