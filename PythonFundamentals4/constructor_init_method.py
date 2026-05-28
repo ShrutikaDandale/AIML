@@ -28,3 +28,7 @@ print(stu1.get_cgpa())
 
 
 # method is simply created to ask thee object for the permission to access the values instead of directly fetching them 
+
+# we can only write one constructor or one init method per class 
+
+# if humne is program me 2 constructor likhe hai (default and parameterized) to by default jo constructor bad me likha hai vo work karega (yaha parameterized karega)

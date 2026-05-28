@@ -10,3 +10,8 @@ print(stu1.cgpa)
 
 # here name and cgpa are attributes
 #  shanku nd 9.77 are values
+
+
+
+# instance - unique attribute (everyone has unique name, cgpa)
+# class - unique attribute (everyone has common collage name)

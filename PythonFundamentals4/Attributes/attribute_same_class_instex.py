@@ -18,8 +18,6 @@ print(stu1.pie)
 print(Student.pie)
 # if we specifically access with class name then the class value will be print
 
-
-
-
+#  instance attribute has higher priority than class to yaha pie ki value instance vali print hogi naki class ki
 # here, pie is in both class and instance 
 # so higher priority will be given to instance
