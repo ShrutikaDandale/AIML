@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, name, balance, accNo):
 
-        self._name = name #public attribute
+        self.name = name #public attribute
         self._balance = balance #protected attribute (uses _ )
         self.__accNo = accNo #private attribute (uses __ )
 
@@ -17,3 +17,8 @@ acc1.set_balance(20000)
 print(acc1.name, acc1.get_balance)
 # print(acc1.name, acc1.BankAccount__balance) we can also access private attributes like this
         
+
+
+#public atribute - can be access everywere
+#protected  attribute - can  be access inside class and subclass
+# private attribute - can  be access inside class only
