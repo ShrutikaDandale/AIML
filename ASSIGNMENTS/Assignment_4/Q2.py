@@ -7,19 +7,24 @@
 # •count reviews 
 # •display all reviews
 
+# class created
 class Book:
 
+# attributes
     def __init__(self, title, author):
         self.title = title
         self.author = author
         self.reviews = []
 
+# methof of add review 
     def add_review(self, review):
         self.reviews.append(review)
 
+# method of count
     def count_reviews(self):
         print("Total reviews:", len(self.reviews))
 
+# method to display all review
     def display_reviews(self):
         for review in self.reviews:
             print(review)
