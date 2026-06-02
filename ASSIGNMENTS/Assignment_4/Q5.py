@@ -34,9 +34,9 @@ class Bike(Vehical):
         print("Engine =", self.engine_cc, "cc")
 
 # Objects create kiye
-c1 = Car("BMW", "M5", 4)
-b1 = Bike("ninja", "n-900", 360)
+        c1 = Car("BMW", "M5", 4)
+        b1 = Bike("ninja", "n-900", 360)
 
    # Methods call kiye
-c1.display()
-b1.display()
+        c1.display()
+        b1.display()
