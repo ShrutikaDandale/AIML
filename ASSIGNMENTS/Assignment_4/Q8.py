@@ -3,14 +3,14 @@
 # •instance variables name and level 
 # Track how many players were created.
 class Player:
-    player_count = 0
+    player_count = 0#class
 
-    def __init__(self, name, level):
+    def __init__(self, name, level):#instance
         self.name = name
         self.level = level
         Player.player_count += 1
 
-    def display(self):
+    def display(self):# to print info
         print("Name:", self.name)
         print("Level:", self.level)
 
@@ -19,6 +19,7 @@ p1 = Player("Kookie", 10)
 p2 = Player("Tae", 15)
 p3 = Player("Chimchim", 20)
 
+#display method ko call kiya to display info
 p1.display()
 p2.display()
 p3.display()
