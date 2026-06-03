@@ -16,7 +16,7 @@ class Book:
         self.author = author
         self.reviews = []
 
-# methof of add review 
+# method of add review 
     def add_review(self, review):
         self.reviews.append(review)
 
