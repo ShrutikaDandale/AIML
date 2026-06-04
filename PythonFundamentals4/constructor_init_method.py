@@ -1,7 +1,7 @@
 # create a class
 class Student:
     
-#constructor created  
+#constructor created  [-]
     def __init__(self, name, cgpa): #self is compulsory it will always come
        self.name = name
        self.cgpa = cgpa

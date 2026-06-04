@@ -5,7 +5,7 @@ def __init__(self, RAM, storage): #intance
         self.Ram = RAM
         self.storage = storage
 
-@classmethod #class method - agar humne kisi function ki method classmethod define kardi to vo function ka behaviour change hoke vo as a class act karega
+@classmethod #class method - agar humne kissi function ki method classmethod define kardi to vo function ka behaviour change hoke vo as a class behave karega
 def get_storage_type(cls):
       print(f"storage type = {cls.storage_type}")
 
