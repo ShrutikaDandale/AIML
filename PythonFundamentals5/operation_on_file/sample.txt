@@ -1,0 +1,3 @@
+text to overwrite 
+ the complete data.new text being appended 
+ to the file
