@@ -1,3 +1,4 @@
+# readline - (read)gives output line by line
 f = open("PythonFundamentals5/operation_on_file/sample.txt", "r")
 
 # to read the file line by line

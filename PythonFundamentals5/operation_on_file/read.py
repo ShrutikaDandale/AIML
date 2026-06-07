@@ -1,3 +1,5 @@
+#read - uses the 'r' mode to access read the file 
+
 # sample file ko access kiya
 f = open("PythonFundamentals5/operation_on_file/sample.txt", "r")
 
