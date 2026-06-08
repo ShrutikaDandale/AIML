@@ -9,5 +9,5 @@
 marks = [46, 33, 79, 95, 100]
 
 print(marks)
-print(marks[1]) #for printing the value of index 1
+print(marks[1]) #for printing the value of index 1 
 print(len(marks))
