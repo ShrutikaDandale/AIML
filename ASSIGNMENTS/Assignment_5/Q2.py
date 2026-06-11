@@ -18,3 +18,13 @@ f.close()
 
 
 # as we run our program the no. of logs will increase  because "a" (append mode) keeps adding new entries to the end of the file instead of deleting the old ones.
+
+# PROGRAM LOGIC
+# Open file in append mode
+# Write the new log entry
+# Close the file
+
+# Open the same file in read mode
+# Read all contents
+# Print them
+# Close the file
