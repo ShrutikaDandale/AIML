@@ -1,4 +1,4 @@
-# suppose we have a list and we want to convert all the -ve no.s to 0
+# suppose we have a list and we want to convert all the -ve no.s to 0 by using the list comprehension
 
 nums = [-2, 3, -3, 4, -1, 7]
 
