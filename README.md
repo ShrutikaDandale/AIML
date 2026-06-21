@@ -36,4 +36,4 @@ Growing from a beginner to a skilled **AI/ML Developer** through consistent lear
 
 ##  Author
 
-**Shrutika Dandale**
+*Shrutika Dandale*
