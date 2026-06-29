@@ -1,0 +1,10 @@
+num = str(input("enter a string containing number : "))
+
+num = int(num)
+print(num, type(num))
+
+num = float(num)
+print(num, type(num))
+
+num = str(num)
+print(num, type(num))
