@@ -3,12 +3,15 @@
 # •Ifsalaryis30,000–70,000→15%
 # •Ifsalary>70,000→25%
 
-salary =  float(input("enter your salary: "))
+salary = float(input("enter salary: "))
+
 if (salary < 30000):
-      print("5%")
-elif(salary == 30000 and salary == 70000):
-      print("15%")
-elif(salary > 70000):
-       print("25%")
+    tax = salary * 0.5 
+
+elif (salary <= 70000):
+    tax = salary * 0.15 
+
 else:
-    print("invalid")
+    tax = salary * 0.25  
+
+print("tax: ", tax)
