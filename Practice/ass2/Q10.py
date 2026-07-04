@@ -1,13 +1,16 @@
 
 secret = 25
 
-num = int(input("Enter num :"))
+while True:
 
-if secret < num:
- print("Too High")
+ num = int(input("Enter num :"))
 
-elif secret > num:
- print("Too Low")
+ if secret < num:
+   print("Too High")
 
-else:
- print("Correct")
+ elif secret > num:
+  print("Too Low")
+
+ else:
+  print("Correct")
+  break
