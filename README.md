@@ -1,4 +1,4 @@
-# AI-ML ⚡
+8# AI-ML ⚡
 
 Learning **AI & ML** step by step while building and experimenting along the journey.
 
@@ -30,7 +30,7 @@ Learning **AI & ML** step by step while building and experimenting along the jou
 
 ## 🎯 Goal
 
-Growing from a beginner to skilled **AI/ML Developer** through consistent learning & hands-on projects.
+Growing from a beginner to a skilled **AI/ML Developer** through consistent learning & hands-on projects.
 
 ---
 
