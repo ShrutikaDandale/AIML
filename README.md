@@ -1,4 +1,4 @@
-8# AI-ML ⚡
+# AI-ML ⚡
 
 Learning **AI & ML** step by step while building and experimenting along the journey.
 
