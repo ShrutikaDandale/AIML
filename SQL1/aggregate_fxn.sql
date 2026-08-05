@@ -22,7 +22,12 @@ VALUES
 
 
 -- ORDER BY clause do sorting in asc or desc order
-SELECT name, age, followers
+SELECT max(age)
+FROM users;
+
+SELECT count(age)
 FROM users
-ORDER BY followers ASC;
-ORDER BY followers DESC;
+WHERE age = 14;
+
+SELECT sum(followers)
+FROM users;
