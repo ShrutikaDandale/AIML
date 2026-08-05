@@ -21,7 +21,7 @@ VALUES
 (4, 17, "Kookie", "kookie@gmail.com", 343, 745);
 
 
--- ORDER BY clause do sorting in asc or desc order
+-- Aggregate function 
 SELECT max(age)
 FROM users;
 
