@@ -31,11 +31,11 @@ ADD COLUMN city VARCHAR(25) DEFAULT "Delhi";
 ALTER TABLE users
 DROP COLUMN age;
 
--- RENAME- rename the table
+-- RENAME- rename the table name not colm name
 ALTER TABLE users
 RENAME TO instaUser;
 
--- CHANGE- to change some names 
+-- CHANGE- change the colm name not table name 
 ALTER TABLE users
 CHANGE COLUMN followers subs INT DEFAULT 0;
 
