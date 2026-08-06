@@ -1,3 +1,7 @@
+-- PRIMARY KEY & FOREIGN KEY
+
+
+
 -- humne pehele instagram nam ka DB banaya
 CREATE DATABASE IF NOT EXISTS instagram;
 
