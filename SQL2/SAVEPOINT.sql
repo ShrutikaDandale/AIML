@@ -1,7 +1,3 @@
--- suppose 2 users hai with ID 1 & 2 unke bich me transaction ho raha hai user A se debit & user 2 ke acc me credit hoga money
-
-
-
 CREATE DATABASE IF NOT EXISTS prime;
 
 USE prime;
@@ -28,19 +24,14 @@ SELECT * FROM accounts;
 
 START TRANSACTION;
 
--- Transfer ₹50 from Shrutika(id 1) to Pritish(id 2)
-UPDATE accounts
-SET balance = balance - 50
-WHERE id = 1;
+UPDATE accounts SET balance = balance - 50 WHERE id = 1;
+SAVEPOINT after_wallet_topup;
 
-COMMIT;
+UPDATE accounts SET balance = balance + 10 WHERE id = 1;
 
-UPDATE accounts 
-SET balance = balance + 50
-WHERE id = 2;
-
+-- if any error ocurs then rollback
 ROLLBACK;
-
+COMMIT;
 
 -- Check Updated Data
 SELECT * FROM accounts;
