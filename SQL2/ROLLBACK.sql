@@ -29,11 +29,13 @@ UPDATE accounts
 SET balance = balance - 50
 WHERE id = 1;
 
+COMMIT;
+
 UPDATE accounts 
 SET balance = balance + 50
 WHERE id = 2;
 
-COMMIT;
+ROLLBACK;
 
 
 -- Check Updated Data
