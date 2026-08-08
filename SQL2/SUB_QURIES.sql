@@ -44,7 +44,7 @@ SELECT name,
   ) AS order_count
 FROM customers c;  
 
--- another way with SELECT
+-- another way with FROM
 SELECT 
      summary.customer_id,
      summary.avg_amount
