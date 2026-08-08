@@ -25,14 +25,10 @@ VALUES
 (103, 2, 300),
 (104, 5, 700);
 
-SELECT * FROM customers;
-SELECT *FROM orders;
+-- CROSS JOIN
+SELECT * 
+FROM customers
+CROSS JOIN orders;
 
-
--- INNER JOIN
-SELECT *
-FROM customers c 
-INNER JOIN orders o 
-ON c.customer_id = o.customer_id;
-
--- in both the tables we have same cust_id so we will join both the tables on the basis of their cust_id
+-- in CROSS JOIN each row will be match with every other row in the another table
+-- suppose we have alice in table A then alice will be join with  Alice 101, Alice 102, Alice 103, Alice 104 all of the values same with the eachothers

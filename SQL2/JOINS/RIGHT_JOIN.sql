@@ -29,10 +29,11 @@ SELECT * FROM customers;
 SELECT *FROM orders;
 
 
--- INNER JOIN
+-- LEFT JOIN
 SELECT *
-FROM customers c 
-INNER JOIN orders o 
+FROM customers c
+RIGHT JOIN orders o 
 ON c.customer_id = o.customer_id;
 
--- in both the tables we have same cust_id so we will join both the tables on the basis of their cust_id
+-- RIGHT JOIN me similar values both tables ki print hoke aayegi but remaining values sirf RIGHT side ke tables mese hi print hogi
+-- in short RIGHT table ki sari values rakhega and LEFT table ki sirf matching values

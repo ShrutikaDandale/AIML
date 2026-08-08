@@ -25,14 +25,11 @@ VALUES
 (103, 2, 300),
 (104, 5, 700);
 
-SELECT * FROM customers;
-SELECT *FROM orders;
+-- SELF JOIN
+SELECT * 
+FROM customers as A
+JOIN customers as B
+ON A.customer_id = B.customer_id;
 
-
--- INNER JOIN
-SELECT *
-FROM customers c 
-INNER JOIN orders o 
-ON c.customer_id = o.customer_id;
-
--- in both the tables we have same cust_id so we will join both the tables on the basis of their cust_id
+-- SELF JOIN is basically used with the same table like the copy of the same table the table is join with itself
+-- humare data me jaha kaha bhi same same id repeated hue hogi self join unhe join karane ka kam karata hai

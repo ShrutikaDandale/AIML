@@ -29,10 +29,16 @@ SELECT * FROM customers;
 SELECT *FROM orders;
 
 
--- INNER JOIN
+-- OUTER JOIN
 SELECT *
-FROM customers c 
-INNER JOIN orders o 
+FROM customers c
+LEFT JOIN orders o 
+ON c.customer_id = o.customer_id
+UNION
+SELECT *
+FROM customers c
+RIGHT JOIN orders o 
 ON c.customer_id = o.customer_id;
 
--- in both the tables we have same cust_id so we will join both the tables on the basis of their cust_id
+-- OUTER JOIN is used to get all of the values
+-- from left table, right table &  similar values too
