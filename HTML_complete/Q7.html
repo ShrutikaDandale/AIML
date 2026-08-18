@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration form</title>
 </head>
 <body>
+  <h3>Registration form</h3>
   <form action="https://www.google.com/">
-    <input type="text" name="q" placeholder="search in google">
-    <button>submitt</button>
+    <input type="text" name="fname" placeholder="First Name">
+        <input type="text" name="name" placeholder="Last Name">
+
+        <p>please select gender</p>
+        <select name="gender" id="gender">
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+          <option value="o">Others</option>
+        </select>
+        <p>do you agree to all teamrs of services?</p>
+        <input type="checkbox" id="tos_agree" name="tos_agree" />
+        <label for="tos_agree">yes i agree</label>
+<br>
+        <button>register</button>
   </form>  
 </body>
 </html>
